@@ -1,0 +1,105 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "email": "",
+            "username": ""
+        },
+        {
+            "id": 2,
+            "email": "",
+            "username": ""
+        },
+        {
+            "id": 3,
+            "email": "",
+            "username": ""
+        }
+    ],
+    "runLikes": [
+        {
+            "id": 1,
+            "userId": 1,
+            "runId": 1
+        },
+        {
+            "id": 2,
+            "userId": 2,
+            "runId": 2
+        },
+        {
+            "id": 3,
+            "userId": 3,
+            "runId": 3
+        }
+    ],
+    "runs": [
+        {
+            "id": 1,
+            "userId": 1,
+            "date": "",
+            "distance": "",
+            "temperature": 0,
+            "time": 0,
+            "location": "",
+            "public": true,
+            "runTypeId": 1
+        },
+        {
+            "id": 2,
+            "userId": 2,
+            "date": "",
+            "distance": "",
+            "temperature": 0,
+            "time": 0,
+            "location": "",
+            "public": true,
+            "runTypeId": 2
+        },
+        {
+            "id": 3,
+            "userId": 3,
+            "date": "",
+            "distance": "",
+            "temperature": 0,
+            "time": 0,
+            "location": "",
+            "public": true,
+            "runTypeId": 3
+        }
+    ],
+    "runTypes": [
+        {
+            "id": 1,
+            "type": "Base Run"
+        },
+        {
+            "id": 2,
+            "type": "Recovery Run"
+        },
+        {
+            "id": 3,
+            "type": "Long Run"
+        },
+        {
+            "id": 4,
+            "type": "Progression Run"
+        },
+        {
+            "id": 5,
+            "type": "Fartlek"
+        },
+        {
+            "id": 6,
+            "type": "Hill Repeats"
+        },
+        {
+            "id": 7,
+            "type": "Tempo Run"
+        },
+        {
+            "id": 8,
+            "type": "Intervals"
+        }
+    ]
+}
