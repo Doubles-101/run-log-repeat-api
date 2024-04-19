@@ -1,105 +1,132 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "email": "bi@da.ge",
-            "username": "Harriett Willis"
-        },
-        {
-            "id": 2,
-            "email": "ennamedo@vad.tn",
-            "username": "Maurice Henry"
-        },
-        {
-            "id": 3,
-            "email": "zokaw@ubjigif.ai",
-            "username": "Bernard Christensen"
-        }
-    ],
-    "runLikes": [
-        {
-            "id": 1,
-            "userId": 1,
-            "runId": 1
-        },
-        {
-            "id": 2,
-            "userId": 2,
-            "runId": 2
-        },
-        {
-            "id": 3,
-            "userId": 3,
-            "runId": 3
-        }
-    ],
-    "runs": [
-        {
-            "id": 1,
-            "userId": 1,
-            "date": "4/7/2108",
-            "distance": "7.8718",
-            "temperature": 0,
-            "time": 41,
-            "location": "Sint Maarten",
-            "public": true,
-            "runTypeId": 1
-        },
-        {
-            "id": 2,
-            "userId": 2,
-            "date": "11/26/2090",
-            "distance": "8.2072",
-            "temperature": 0,
-            "time": 66,
-            "location": "Nepal",
-            "public": true,
-            "runTypeId": 2
-        },
-        {
-            "id": 3,
-            "userId": 3,
-            "date": "11/3/2037",
-            "distance": "25.187",
-            "temperature": 0,
-            "time": 71,
-            "location": "Austria",
-            "public": true,
-            "runTypeId": 3
-        }
-    ],
-    "runTypes": [
-        {
-            "id": 1,
-            "type": "Base Run"
-        },
-        {
-            "id": 2,
-            "type": "Recovery Run"
-        },
-        {
-            "id": 3,
-            "type": "Long Run"
-        },
-        {
-            "id": 4,
-            "type": "Progression Run"
-        },
-        {
-            "id": 5,
-            "type": "Fartlek"
-        },
-        {
-            "id": 6,
-            "type": "Hill Repeats"
-        },
-        {
-            "id": 7,
-            "type": "Tempo Run"
-        },
-        {
-            "id": 8,
-            "type": "Intervals"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "email": "bi@da.ge",
+      "username": "Harriett Willis"
+    },
+    {
+      "id": 2,
+      "email": "ennamedo@vad.tn",
+      "username": "Maurice Henry"
+    },
+    {
+      "id": 3,
+      "email": "zokaw@ubjigif.ai",
+      "username": "Bernard Christensen"
+    }
+  ],
+  "runLikes": [
+    {
+      "id": 1,
+      "userId": 1,
+      "runId": 1
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "runId": 2
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "runId": 3
+    },
+    {
+        "id": 4,
+        "userId": 1,
+        "runId": 2
+    }
+  ],
+  "runs": [
+    {
+      "id": 1,
+      "userId": 1,
+      "date": "4/7/2108",
+      "distance": "7.8718",
+      "temperature": 0,
+      "time": 41,
+      "location": "Sint Maarten",
+      "public": true,
+      "runTypeId": 1
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "date": "11/26/2090",
+      "distance": "8.2072",
+      "temperature": 0,
+      "time": 66,
+      "location": "Nepal",
+      "public": true,
+      "runTypeId": 2
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "date": "11/3/2037",
+      "distance": "25.187",
+      "temperature": 0,
+      "time": 71,
+      "location": "Austria",
+      "public": true,
+      "runTypeId": 3
+    },
+    {
+      "userId": 1,
+      "runTypeId": 1,
+      "location": "Nashville",
+      "distance": "12",
+      "time": "123",
+      "date": "04-18-24",
+      "temperature": "72",
+      "public": true,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "runTypeId": 5,
+      "location": "Memphis",
+      "distance": "2",
+      "time": "18",
+      "date": "04-19-24",
+      "temperature": "63",
+      "public": true,
+      "id": 5
+    }
+  ],
+  "runTypes": [
+    {
+      "id": 1,
+      "type": "Base Run"
+    },
+    {
+      "id": 2,
+      "type": "Recovery Run"
+    },
+    {
+      "id": 3,
+      "type": "Long Run"
+    },
+    {
+      "id": 4,
+      "type": "Progression Run"
+    },
+    {
+      "id": 5,
+      "type": "Fartlek"
+    },
+    {
+      "id": 6,
+      "type": "Hill Repeats"
+    },
+    {
+      "id": 7,
+      "type": "Tempo Run"
+    },
+    {
+      "id": 8,
+      "type": "Intervals"
+    }
+  ]
 }
