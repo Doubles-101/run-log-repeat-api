@@ -3,7 +3,7 @@
     {
       "id": 1,
       "email": "bi@da.ge",
-      "username": "Harriett Willis"
+      "username": "Harriett Willis Jr"
     },
     {
       "id": 2,
@@ -18,11 +18,6 @@
   ],
   "likes": [
     {
-      "id": 1,
-      "userId": 1,
-      "runId": 1
-    },
-    {
       "id": 2,
       "userId": 2,
       "runId": 2
@@ -33,14 +28,14 @@
       "runId": 3
     },
     {
-      "id": 4,
       "userId": 1,
-      "runId": 2
+      "runId": 1,
+      "id": 6
     },
     {
       "userId": 1,
-      "runId": 4,
-      "id": 5
+      "runId": 3,
+      "id": 7
     }
   ],
   "runs": [
@@ -87,17 +82,6 @@
       "temperature": "72",
       "public": true,
       "id": 4
-    },
-    {
-      "userId": 1,
-      "runTypeId": 5,
-      "location": "Memphis",
-      "distance": "2",
-      "time": "18",
-      "date": "04-19-24",
-      "temperature": "63",
-      "public": true,
-      "id": 5
     }
   ],
   "runTypes": [
