@@ -16,7 +16,7 @@
       "username": "Bernard Christensen"
     }
   ],
-  "runLikes": [
+  "likes": [
     {
       "id": 1,
       "userId": 1,
@@ -33,9 +33,14 @@
       "runId": 3
     },
     {
-        "id": 4,
-        "userId": 1,
-        "runId": 2
+      "id": 4,
+      "userId": 1,
+      "runId": 2
+    },
+    {
+      "userId": 1,
+      "runId": 4,
+      "id": 5
     }
   ],
   "runs": [
