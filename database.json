@@ -3,12 +3,12 @@
     {
       "id": 1,
       "email": "bi@da.ge",
-      "username": "Harriett Willis Jr"
+      "username": "Harriett Willis Sr"
     },
     {
       "id": 2,
       "email": "ennamedo@vad.tn",
-      "username": "Maurice Henry"
+      "username": "Maurice Henry Jr"
     },
     {
       "id": 3,
@@ -79,7 +79,7 @@
       "distance": "12",
       "time": "123",
       "date": "04-18-24",
-      "temperature": "72",
+      "temperature": "75",
       "public": true,
       "id": 4
     }
