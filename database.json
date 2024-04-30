@@ -3,39 +3,42 @@
     {
       "id": 1,
       "email": "bi@da.ge",
-      "username": "Harriett Willis Sr"
+      "username": "Harriett Willis Sr",
+      "profileImg": "https://images.vexels.com/media/users/3/263225/isolated/preview/846c7cd4a40a52e16386b3cc5cea63f6-marathon-sport-running-shoe.png"
     },
     {
       "id": 2,
       "email": "ennamedo@vad.tn",
-      "username": "Maurice Henry Jr"
+      "username": "Maurice Henry",
+      "profileImg": "https://img.freepik.com/free-vector/running-shoes-cartoon-illustration-flat-cartoon-style_138676-2849.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1712188800&semt=ais"
     },
     {
       "id": 3,
       "email": "zokaw@ubjigif.ai",
-      "username": "Bernard Christensen"
+      "username": "Bernard Christensen",
+      "profileImg": "https://i.etsystatic.com/23175541/r/il/57d695/3943216679/il_570xN.3943216679_r44h.jpg"
     }
   ],
   "likes": [
-    {
-      "id": 2,
-      "userId": 2,
-      "runId": 2
-    },
     {
       "id": 3,
       "userId": 3,
       "runId": 3
     },
     {
-      "userId": 1,
-      "runId": 1,
-      "id": 6
+      "userId": 2,
+      "runId": 5,
+      "id": 8
     },
     {
       "userId": 1,
       "runId": 3,
-      "id": 7
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "runId": 2,
+      "id": 11
     }
   ],
   "runs": [
@@ -43,8 +46,8 @@
       "id": 1,
       "userId": 1,
       "date": "4/7/2108",
-      "distance": "7.8718",
-      "temperature": 0,
+      "distance": "7.8",
+      "temperature": "79",
       "time": 41,
       "location": "Sint Maarten",
       "public": true,
@@ -73,15 +76,37 @@
       "runTypeId": 3
     },
     {
+      "userId": 2,
+      "runTypeId": 1,
+      "location": "Knoxville, TN",
+      "distance": "5",
+      "time": "63",
+      "date": "2024-04-23",
+      "temperature": "80",
+      "public": true,
+      "id": 5
+    },
+    {
       "userId": 1,
       "runTypeId": 1,
       "location": "Nashville",
-      "distance": "12",
-      "time": "123",
-      "date": "04-18-24",
-      "temperature": "75",
+      "distance": "3",
+      "time": "30",
+      "date": "2024-04-23",
+      "temperature": "49",
       "public": true,
-      "id": 4
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "runTypeId": 3,
+      "location": "Nashville",
+      "distance": "13.1",
+      "time": "131",
+      "date": "2024-04-27",
+      "temperature": "77",
+      "public": true,
+      "id": 8
     }
   ],
   "runTypes": [
@@ -116,6 +141,90 @@
     {
       "id": 8,
       "type": "Intervals"
+    }
+  ],
+  "badges": [
+    {
+      "id": 1,
+      "name": "Complete First Run",
+      "img": "★"
+    },
+    {
+      "id": 2,
+      "name": "3 Runs",
+      "img": "★"
+    },
+    {
+      "id": 3,
+      "name": "10 Runs",
+      "img": "★"
+    },
+    {
+      "id": 4,
+      "name": "50 Runs",
+      "img": "★"
+    },
+    {
+      "id": 5,
+      "name": "100 Runs",
+      "img": "★"
+    },
+    {
+      "id": 6,
+      "name": "Like a Post",
+      "img": "★"
+    },
+    {
+      "id": 7,
+      "name": "Like 3 Posts",
+      "img": "★"
+    },
+    {
+      "id": 8,
+      "name": "Run 1 Mile",
+      "img": "★"
+    },
+    {
+      "id": 9,
+      "name": "Run 10 Miles",
+      "img": "★"
+    },
+    {
+      "id": 10,
+      "name": "Run 50 Miles",
+      "img": "★"
+    },
+    {
+      "id": 11,
+      "name": "Run 100 Miles",
+      "img": "★"
+    }
+  ],
+  "userBadges": [
+    {
+      "id": 1,
+      "userId": 1,
+      "badgeId": 1
+    },
+    {
+      "userId": 1,
+      "badgeId": 2,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "badgeId": 6,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "badgeId": 8,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "badgeId": 9,
+      "id": 5
     }
   ]
 }
