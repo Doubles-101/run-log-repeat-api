@@ -17,6 +17,19 @@
       "email": "zokaw@ubjigif.ai",
       "username": "Bernard Christensen",
       "profileImg": "https://i.etsystatic.com/23175541/r/il/57d695/3943216679/il_570xN.3943216679_r44h.jpg"
+    },
+    {
+      "email": "willwillwill@gmail.com",
+      "username": "Blake Smith Jr",
+      "profileImg": "https://png.pngtree.com/png-clipart/20230914/original/pngtree-running-shoe-clipart-cartoon-runner-with-yellow-color-design-running-sneaker-png-image_11245287.png",
+      "fullName": "Willy Boi",
+      "id": 4
+    },
+    {
+      "email": "WillyBoiJr@gmail.com",
+      "username": "Willy Boi Sr",
+      "profileImg": "https://images.vexels.com/media/users/3/263225/isolated/preview/846c7cd4a40a52e16386b3cc5cea63f6-marathon-sport-running-shoe.png",
+      "id": 5
     }
   ],
   "likes": [
@@ -39,6 +52,31 @@
       "userId": 1,
       "runId": 2,
       "id": 11
+    },
+    {
+      "userId": 5,
+      "runId": 3,
+      "id": 12
+    },
+    {
+      "userId": 5,
+      "runId": 9,
+      "id": 13
+    },
+    {
+      "userId": 5,
+      "runId": 2,
+      "id": 15
+    },
+    {
+      "userId": 4,
+      "runId": 11,
+      "id": 16
+    },
+    {
+      "userId": 4,
+      "runId": 9,
+      "id": 17
     }
   ],
   "runs": [
@@ -107,6 +145,39 @@
       "temperature": "77",
       "public": true,
       "id": 8
+    },
+    {
+      "userId": 5,
+      "runTypeId": 1,
+      "location": "Memphis",
+      "distance": "5",
+      "time": "60",
+      "date": "2024-05-01",
+      "temperature": "77",
+      "public": true,
+      "id": 9
+    },
+    {
+      "userId": 5,
+      "runTypeId": 1,
+      "location": "Nashville",
+      "distance": "3",
+      "time": "30",
+      "date": "2024-05-02",
+      "temperature": "70",
+      "public": true,
+      "id": 10
+    },
+    {
+      "userId": 4,
+      "runTypeId": 1,
+      "location": "Austin",
+      "distance": "10",
+      "time": "68",
+      "date": "2024-05-03",
+      "temperature": "77",
+      "public": true,
+      "id": 11
     }
   ],
   "runTypes": [
@@ -225,6 +296,71 @@
       "userId": 1,
       "badgeId": 9,
       "id": 5
+    },
+    {
+      "userId": 2,
+      "badgeId": 1,
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "badgeId": 6,
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "badgeId": 8,
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "badgeId": 9,
+      "id": 9
+    },
+    {
+      "userId": 5,
+      "badgeId": 1,
+      "id": 10
+    },
+    {
+      "userId": 5,
+      "badgeId": 1,
+      "id": 11
+    },
+    {
+      "userId": 5,
+      "badgeId": 6,
+      "id": 12
+    },
+    {
+      "userId": 5,
+      "badgeId": 8,
+      "id": 13
+    },
+    {
+      "userId": 5,
+      "badgeId": 7,
+      "id": 14
+    },
+    {
+      "userId": 4,
+      "badgeId": 1,
+      "id": 15
+    },
+    {
+      "userId": 4,
+      "badgeId": 6,
+      "id": 16
+    },
+    {
+      "userId": 4,
+      "badgeId": 8,
+      "id": 17
+    },
+    {
+      "userId": 4,
+      "badgeId": 9,
+      "id": 18
     }
   ]
 }
